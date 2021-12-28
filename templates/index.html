@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Spam Ham Classifier</title>
+    </head>
+    <body>
+        <h1>This is Spam Ham Classifier</h1>
+        <form action="/predict" method="POST">
+            <textarea name="message" rows="6" cols="50"></textarea>
+            <button type="submit">Predict</button>
+        </form>
+        <br>
+        <br>
+        {{output}}
+    </body>
+</html>
